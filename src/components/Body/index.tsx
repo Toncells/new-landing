@@ -1,9 +1,5 @@
 import { Launch, HeaderContainer, Logo, RoadmapList } from './styles'
 
-const loadImage = (imageName: string) => {
-  return require('../../static/img/' + imageName) as any
-};
-
 const Body = () => {
   return (
     <HeaderContainer >
