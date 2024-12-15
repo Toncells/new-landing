@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change to your default branch if different (e.g., 'master')
+      - main  # Or your default branch
 
 jobs:
   deploy:
@@ -23,6 +23,11 @@ jobs:
 
     - name: Build React app
       run: npm run build
+
+    - name: Set Git identity
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "github-actions@github.com"
 
     - name: Deploy to GitHub Pages
       run: npm run deploy
