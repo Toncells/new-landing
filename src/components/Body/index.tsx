@@ -1,4 +1,4 @@
-import { Launch, HeaderContainer, Logo, RoadmapList } from './styles'
+import { HeaderContainer } from './styles'
 
 const Body = () => {
   return (
