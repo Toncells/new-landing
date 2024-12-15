@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # Or your default branch
+      - main  # Change to your default branch if different (e.g., 'master')
 
 jobs:
   deploy:
@@ -30,7 +30,8 @@ jobs:
         git config --global user.email "github-actions@github.com"
 
     - name: Deploy to GitHub Pages
-      run: npm run deploy
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub token is automatically available in the repository
+      run: |
+        # Set up the remote to use the GITHUB_TOKEN for authentication
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        npm run deploy
 
