@@ -2,7 +2,7 @@ import Body from './components/Body/';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-console.log(process.env)
+console.log(1)
 const App = () => {
   return (
     <BrowserRouter>
@@ -12,5 +12,4 @@ const App = () => {
     </BrowserRouter>
   );
 }
-
 export default App;
