@@ -12,7 +12,7 @@ editable nft collection on ton
 <br />
         <a href={"https://app.toncells.org"}>app toncells v1 (old version)</a>
 <br />
-        <a href={"https://info.toncells.org"}>landing page toncells v1 (old version)</a>
+        <a href={"https://old.toncells.org"}>landing page toncells v1 (old version)</a>
 <br />
         <a href={"https://t.me/toncells"}>toncells tg</a>
 <br />
