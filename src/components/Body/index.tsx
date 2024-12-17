@@ -8,9 +8,9 @@ const Body = () => {
 editable nft collection on ton
 </h3>
       <span>
-        <a href={"https://app.toncells.org"}>app toncells v2 (new version with onchain nft edit)</a>
+        <a href={"https://app.toncells.org"}>app toncells v2 (new onchain version)</a>
 <br />
-        <a href={"https://old.toncells.org"}>app toncells v1 (old centrilized version / frozen)</a>
+        <a href={"https://old.toncells.org"}>app toncells v1 (old centrilized version)</a>
 <br />
         <a href={"https://t.me/toncells"}>toncells tg</a>
 <br />
